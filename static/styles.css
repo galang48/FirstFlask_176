@@ -1,0 +1,78 @@
+/* styles.css - Super Mario Inspired */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: url('https://wallpapercave.com/wp/wp1831998.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 3rem 4rem;
+    border: 5px solid #ffcc00;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffcc00;
+    text-shadow: 3px 3px 0 #000;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border: 3px solid #ffcc00;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    outline: none;
+    color: #000;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: linear-gradient(90deg, #ff0000, #ff4500);
+    border: 3px solid #ffcc00;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff6347, #ff2400);
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
